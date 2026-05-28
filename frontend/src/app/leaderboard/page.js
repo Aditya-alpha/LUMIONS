@@ -11,17 +11,17 @@ export default function LeaderboardPage() {
 
     return (
         <div className="min-h-screen bg-[#dcf6c9] text-[#061e20]" style={{ fontFamily: "PressStart" }}>
-            <nav className="flex items-center justify-between p-4 bg-[#447a60] px-16 text-white">
-                <Image src={logo} alt="Lumions Logo" className="h-10 w-36 cursor-pointer" onClick={() => router.push('/')} />
-                <div className="flex space-x-16">
+            <nav className="flex items-center justify-between py-2 sm:py-4 bg-[#447a60] px-4 sm:px-16 text-white">
+                <Image src={logo} alt="Lumions Logo" className="h-6 w-22 sm:h-10 sm:w-36 cursor-pointer" onClick={() => router.push('/')} />
+                <div className="flex space-x-4 sm:space-x-16 text-[0.6rem] sm:text-base">
                     <p className="cursor-pointer" onClick={() => window.open('https://x.com/lumionseth', '_blank')} >X</p>
                     <p className="cursor-pointer" onClick={() => router.push('/trade')} >Trade</p>
                     <p className="cursor-pointer" onClick={() => router.push('/leaderboard')} >Leaderboard</p>
                 </div>
             </nav>
             <div className="flex flex-col items-center justify-center h-[80vh]" >
-                <Image src={soon} alt="Lumions Logo" className="w-1/2" />
-                <button className="mt-8 px-6 py-3 bg-[#447a60] text-white rounded-lg hover:bg-[#3b654d] transition-colors duration-300 cursor-pointer" onClick={() => router.push('/')}>Go Back Home</button>
+                <Image src={soon} alt="Lumions Logo" className="sm:w-1/2" />
+                <button className="mt-8 px-6 py-3 text-[0.6rem] sm:text-base bg-[#447a60] text-white rounded-lg hover:bg-[#3b654d] transition-colors duration-300 cursor-pointer" onClick={() => router.push('/')}>Go Back Home</button>
             </div>
         </div>
     )
