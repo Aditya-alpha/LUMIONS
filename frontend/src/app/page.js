@@ -74,7 +74,7 @@ export default function HomePage() {
 
         <div>
           <p className="text-center font-bold text-sm sm:text-xl tracking-widest">Key steps to glory!</p>
-          <p className="text-center text-xs sm:text-sm bg-[#061e20] text-white px-4 sm:px-16 py-4 mt-4 tracking-wider leading-relaxed rounded-xl">Start your Pokegochi journey today by following these simple steps and unlock a world of adventure with your digital companions!</p>
+          <p className="text-center text-xs sm:text-sm bg-[#061e20] text-white px-4 sm:px-16 py-4 mt-4 tracking-wider leading-relaxed rounded-xl">Start your Lumions journey today by following these simple steps and unlock a world of adventure with your digital companions!</p>
         </div>
 
         <div className="sm:flex justify-between px-12 text-xs leading-relaxed sm:text-sm space-y-12 sm:space-y-0">
