@@ -44,7 +44,7 @@ export default function HomePage() {
 
         <div>
           <p className="text-center font-bold text-xs sm:text-xl tracking-widest">Witness the Lumions Magic</p>
-          <p className="text-center sm:text-2xl mt-4 tracking-wider" style={{ fontFamily: "NineByFive" }}>Experience the thrill as Lumions Eggs hatch into vibrant companions, ready to join you on your adventures. Transactions within our ecosystem are seamlessly powered by Solana’s lightning-fast blockchain. Your assets are safeguarded against manipulation or fraud, ensuring a secure and efficient experience. Join us and immerse yourself in the enchanting world of Lumions. Start your journey now and watch the magic unfold!</p>
+          <p className="text-center sm:text-2xl mt-4 tracking-wider" style={{ fontFamily: "NineByFive" }}>Experience the thrill as Lumions Eggs hatch into vibrant companions, ready to join you on your adventures. Transactions within our ecosystem are seamlessly powered by ETH's lightning-fast blockchain. Your assets are safeguarded against manipulation or fraud, ensuring a secure and efficient experience. Join us and immerse yourself in the enchanting world of Lumions. Start your journey now and watch the magic unfold!</p>
         </div>
 
         <div className="sm:flex justify-center items-center gap-20" >
